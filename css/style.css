@@ -79,7 +79,7 @@ nav a:focus {
 	margin: auto;
 	padding: 30px;
 	right: 0;
-	top: 15%;
+/*	top: 15%;	*/
 	left: 0;
 	
 }
@@ -117,13 +117,13 @@ nav a:focus {
 	float: left;
 	overflow: hidden;
 	margin: 5px 2%;
-	min-width: 320px;
+/*	min-width: 320px;
 	max-width: 345px;
-	max-height: 360px;
-	width: 31%;
+	max-height: 360px;	*/
+	width: 29%;
 /*	background: #3085a3;*/
 	text-align: center;
-	cursor: pointer;
+/*	cursor: pointer;		*/
 }
 
 .grid figure img {
@@ -144,6 +144,7 @@ nav a:focus {
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+	border-radius: 25px;
 }
 
 .grid figure figcaption::before,
@@ -173,6 +174,7 @@ nav a:focus {
 .grid figure h2 {
 	word-spacing: -0.15em;
 	font-weight: 300;
+	font-size: 1.5rem;
 }
 
 .grid figure h2 span {
@@ -231,7 +233,7 @@ figure.effect-zoe:hover p.icon-links a:focus {
 
 figure.effect-zoe p.description {
 	position: absolute;
-	bottom: 8em;
+	bottom: 100%;
 	padding: 2em;
 	color: #eee;
 	text-transform: none;
